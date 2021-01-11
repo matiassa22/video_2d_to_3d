@@ -6,18 +6,20 @@ unfinished
 
 2- conda create -n midas_test python=3.7.7
 
-3- conda install the following
-   pytorch=1.3.1
-   torchvision=0.4.2 
-   opencv=3.4.2
+3- conda create --name <env> --file requirements.txt
+   
+4- install imagemagick
  
+5- conda activate midas_test
+
+6- ./main.sh [filename]
+
+7- once the video is done the converted frames are goin to be stored in the /final directory
+
+8- you can use ./unir_frames.sh to join them in a videofile
+
+repositories used
 
 https://github.com/otwen/depth2stereo
 
-
-
 https://github.com/intel-isl/MiDaS
-
-pytorch                   1.3.1
-torchvision               0.4.2 
-opencv                    3.4.2
