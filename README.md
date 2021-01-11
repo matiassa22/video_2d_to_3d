@@ -11,6 +11,8 @@ its using an older version of midas and the 3d effect its pretty tame
 3- conda create --name <env> --file requirements.txt
    
 4- install imagemagick
+
+5- download the model: https://www.mediafire.com/file/nv05regf5wcu89x/model.pt/file and place it in the root of /midas 
  
 5- conda activate midas_test
 
