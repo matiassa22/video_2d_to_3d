@@ -2,7 +2,9 @@
 
 unfinished
 
-1- intall anaconda
+its using an older version of midas and the 3d effect its pretty tame
+
+1- install anaconda
 
 2- conda create -n midas_test python=3.7.7
 
