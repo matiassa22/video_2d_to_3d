@@ -2,13 +2,17 @@
 
 unfinished
 
-1- intall anaconda
+its using an older version of midas and the 3d effect its pretty tame
+
+1- install anaconda
 
 2- conda create -n midas_test python=3.7.7
 
 3- conda create --name <env> --file requirements.txt
    
 4- install imagemagick
+
+5- download the model: https://www.mediafire.com/file/nv05regf5wcu89x/model.pt/file and place it in the root of /midas 
  
 5- conda activate midas_test
 
